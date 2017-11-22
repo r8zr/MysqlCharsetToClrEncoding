@@ -7,8 +7,8 @@ namespace MySqlCharsetToClrEncoding
 {
     public static class MySqlCharsetToClrEncoding
     {
-		// References:
-		// https://dev.mysql.com/doc/refman/5.5/en/charset-charsets.html
+	// References:
+	// https://dev.mysql.com/doc/refman/5.5/en/charset-charsets.html
         // https://stackoverflow.com/questions/7320847/get-encoding-list-in-net-1-1
         public static Encoding Convert(string charset)
         {
@@ -78,5 +78,5 @@ namespace MySqlCharsetToClrEncoding
             }
             return Encoding.UTF8;
         }
-	}
+    }
 }
